@@ -1,0 +1,36 @@
+
+.input-field input:focus + label {
+  color: #ad1457 ;
+}
+.row .input-field input:focus {
+  border-bottom: 1px solid #ad1457 !important;
+  box-shadow: 0 1px 0 0 #ad1457 !important;
+}
+.btn{background-color: #ad1457;}
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.page-footer{
+	position: relative;
+	background-color: black;
+}
+.rds{
+	color: #d81b60;
+}
+
+#button{
+   display:inline-block;
+    border:2px solid #d81b60;
+    color: #d81b60;
+    background-color:#fff;
+    padding:15px 30px;
+    font-size:17px;
+    line-height:auto; 
+}
+#button:hover, #button:active{
+    background-color: #d81b60;
+    color: #fff;
+    border:2px solid #fff;
+}
